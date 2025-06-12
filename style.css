@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -25,12 +26,23 @@ main {
 section {
   margin-bottom: 20px;
   background-color: #fff;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 section h2 {
   color: #6b4f33;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+/* Estilo específico para o texto de apresentação da seção "Sobre Mim" */
+section p {
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1.05em;
+  margin-bottom: 12px;
 }
 
 .direitos-autorais {
@@ -38,4 +50,5 @@ section h2 {
   color: #777;
   text-align: center;
   margin-top: 20px;
+  padding: 15px;
 }
