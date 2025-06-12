@@ -1,9 +1,20 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #f8f8f8;
   color: #333;
+}
+
+.Cabeçalho {
+  margin-top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Cabeçalho img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .jumbotron {
@@ -13,10 +24,23 @@ body {
   text-align: center;
 }
 
+.jumbotron h1 {
+  font-size: 48px;
+  margin: 20px 0 10px 0;
+  font-family: 'Georgia', serif;
+}
+
 .jumbotron nav a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.jumbotron nav a:hover {
+  color: #d7c2ac;
 }
 
 main {
@@ -37,7 +61,6 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Estilo específico para o texto de apresentação da seção "Sobre Mim" */
 section p {
   line-height: 1.6;
   text-align: justify;
@@ -51,16 +74,4 @@ section p {
   text-align: center;
   margin-top: 20px;
   padding: 15px;
-}
-
-.Cabeçalho {
-  margin-top: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-.Cabeçalho img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
