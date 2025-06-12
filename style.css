@@ -56,12 +56,12 @@ section p {
 .Cabeçalho {
   margin-top: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
 }
 
 .Cabeçalho img {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
