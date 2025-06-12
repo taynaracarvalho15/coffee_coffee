@@ -11,3 +11,12 @@ function mostrarCuriosidade() {
   const curiosidade = curiosidades[indice];
   document.getElementById("curiosidade").innerText = curiosidade;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const botaoSobre = document.getElementById("btnSobre");
+  if (botaoSobre) {
+    botaoSobre.addEventListener("click", function() {
+      window.location.href = "sobre.html";
+    });
+  }
+});
