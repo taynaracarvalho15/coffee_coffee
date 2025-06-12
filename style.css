@@ -53,8 +53,15 @@ section p {
   padding: 15px;
 }
 
-.Cabeçalho{
+.Cabeçalho {
   margin-top: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.Cabeçalho img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
