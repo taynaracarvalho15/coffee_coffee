@@ -36,7 +36,6 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Estilo específico para o texto de apresentação da seção "Sobre Mim" */
 section p {
   line-height: 1.6;
   text-align: justify;
@@ -64,7 +63,7 @@ section p {
   top: 35%;
   right: 0;
   transform: translateY(-50%);
-  background-color: #144d14;
+  background-color: #6b4f33;
   color: white;
   padding: 12px 16px;
   font-weight: bold;
@@ -79,7 +78,7 @@ section p {
 }
 
 #botao-acessibilidade:hover {
-  background-color: #2ea32e;
+  background-color: #6b4f33;
 }
 
 /* Container das opções, inicialmente oculto */
@@ -91,7 +90,7 @@ section p {
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
-  background-color: #144d14;
+  background-color: #6b4f33;
   padding: 12px 16px;
   border-radius: 8px;
   z-index: 1101;
@@ -106,7 +105,7 @@ section p {
 
 /* Estilo dos botões dentro do menu */
 #opcoes-acessibilidade button {
-  background-color: #206020;
+  background-color: #6b4f33;
   color: white;
   border: none;
   padding: 10px 14px;
@@ -120,11 +119,12 @@ section p {
 
 #opcoes-acessibilidade button:hover,
 #opcoes-acessibilidade button:focus {
-  background-color: #2ea32e;
+  background-color: #6b4f33;
   outline: none;
 }
 
 #opcoes-acessibilidade button:focus-visible {
-  outline: 3px solid #2ea32e;
+  background-color: #6b4f33;
+  outline: 3px solid;
   outline-offset: 2px;
 }
